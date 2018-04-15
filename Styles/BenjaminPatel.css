@@ -1,0 +1,138 @@
+/*Benjamin Patel 3/6/18*/
+body {
+    color: brown;
+    background-color: maroon;
+}
+p {
+    color: white;
+    font-size: 120%;
+}
+ul {
+    color: white;
+    list-style-type: square;
+}
+h2 {
+    color: black;  
+}
+main>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 2px white;
+    border-radius: 25px;
+    float: right;
+}
+h1 {
+    text-align: center;
+    padding: 10px;
+    border: 4px solid white;
+    color: black;
+    text-shadow: 0 0 5px white;
+}
+.np {
+    text-align: center;
+}
+/*form settings*/
+form {
+    color: white;
+}
+form>first {
+    padding: 12px;
+}
+form>last {
+    padding: 14px;  
+}
+form>number {
+    padding: 0;
+    margin: 0;
+}
+form>submit>a {
+    margin: 10px;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 1px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+/*Nav Bar*/
+nav {
+    width: 100vw;
+}
+nav ul {
+  list-style-type: none;
+    margin: 0px;
+    padding: 5px 0;
+    background-color: beige;
+}
+nav li {
+    display: inline;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+}
+li a:hover {
+    color: crimson;
+}
+/* End Nav Bar*/
+footer {
+    float: bottom;
+    padding-top: 425px;
+    line-height; 50px;
+}
+/*footer for videos page*/
+.vids {
+    padding: 25px;
+    padding-left: 0px;
+    float: left
+}
+/* Basic Tablet Sized */
+@media only screen and (max-width: 800px) {
+    body {
+        margin: 10px auto;
+        width: 95vw;
+    }
+    nav{
+        float: none;
+        width: 100vw;
+        font-size: 130%;
+    }
+    header {
+        width: 100%;
+        text-align: center;
+        line-height: 50px;
+        font-size: 20px;
+    }
+    main {
+        width: 85vw;
+        margin: 0;
+    }
+}
+/* Basic Phone Sized */
+@media only screen and (max-width: 400px) {
+    nav {
+        width: 85vw;
+        font-size: 200%;  
+        text-align: center;
+        float: none;
+    }
+    body {
+        margin: 8px auto;
+        width: 85vw;
+    }
+    header {
+        line-height: 25px;
+        width: 95%;
+    }
+    main{Tanker0228
+        width: 70vw;
+        margin: 0;
+    }
+    main>img {
+        display: none;
+    }
+}
